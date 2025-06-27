@@ -30,7 +30,7 @@ let n = [1,2,3,4]
 let spliced = n.splice(2,2,9)
 console.log(n)//1,2,9
 
-// at  : USED TO ACCESS ARRAY ELEMENT
+// at  : USED TO ACCESS ARRAY ELEMENT : same for STRING
 let digit = [2,3,4,5,6,7]
 console.log(digit.at(1)) //3
 // at  :useful in getting the last element of array
@@ -152,4 +152,6 @@ console.log(arr1);
 
 // chain of methods 
 
+// NUMBERS METHODS
+// toFixed() : to 
 
