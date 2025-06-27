@@ -5,6 +5,8 @@ let letters = ['a','b','c','d'];
 let nums = [2,3,4,5,6,6];
 let concat = nums.concat(letters) 
 console.log(concat) //[2, 3, 4, 5, 6, 6, 'a', 'b', 'c', 'd']
+let secondMethod = [...letters, ...nums]
+console.log(secondMethod)
 
 // reverse an array
 let ans = [2,3,4]
